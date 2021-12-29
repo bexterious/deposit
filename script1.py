@@ -5,4 +5,4 @@ for key in per_cent:
     deposit.append(per_cent[key] * money / 100)
 max_deposit = max(deposit)
 print(deposit)
-print ("Максимальная сумма, которую вы можете заработать — " + str(max_deposit))
+print("Максимальная сумма, которую вы можете заработать: " + str(max_deposit))
